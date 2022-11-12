@@ -193,13 +193,13 @@ body::after {
 .container .box::after {
   content: "SHOES";
   position: absolute;
-  top: 0px;
+  bottom: 20px;
   right: 20px;
   font-size: 5em;
   font-weight: 900;
   color: #fff;
   font-style: italic;
-  opacity: 1;
+  opacity: 0;
   transition: 0.5s;
   border-radius: 20px;
   -webkit-border-radius: 20px;
